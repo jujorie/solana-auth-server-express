@@ -1,0 +1,10 @@
+const path = require('node:path');
+
+const sourceRoot = (...paths) => path.resolve(process.cwd(), 'lib', ...paths)
+
+module.exports = {
+  "config": sourceRoot('config/database.mjs'),
+  "models-path": sourceRoot('database/models'),
+  "seeders-path": sourceRoot('database/migrations'),
+  "migrations-path": sourceRoot('database/migrations')
+};
