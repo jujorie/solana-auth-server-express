@@ -1,4 +1,4 @@
-# Solana Auth Server Express
+# Solana Auth Server Express
 
 ## Badges
 
